@@ -1,0 +1,23 @@
+{
+  "name": "infinite-performance-scroll",
+  "version": "0.1.0",
+  "description": "High performance infinite scroll/pagination",
+  "keywords": [
+    "infinite list",
+    "infinite scroll",
+    "infinity scroll",
+    "paggination",
+    "scroll",
+    "angular"
+  ],
+  "author": "Ihor, Malaniuk <ihor.malaniuk@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malaniuk/infinite-performance-scroll.git"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  }
+}
