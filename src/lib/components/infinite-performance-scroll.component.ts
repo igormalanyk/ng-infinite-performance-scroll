@@ -65,7 +65,6 @@ export class InfinitePerformanceScrollComponent implements OnChanges {
     }
 
     if (!!changes['data']) {
-      console.dir(this.bottom.nativeElement.clientHeight);
       this.calculateScroll();
     }
   }
@@ -123,12 +122,10 @@ export class InfinitePerformanceScrollComponent implements OnChanges {
       }
     }
 
-    console.log(startIndex, endIndex, scrollPosition, this.elementTopCache);
-
     if (this.startIndex !== startIndex || this.endIndex !== endIndex) {
       this.startIndex = startIndex === -1 ? 0 : startIndex;
       this.endIndex = endIndex;
-      console.log('--', this.startIndex, this.endIndex);
+
       this.changeSpaceHeight(
         this.elementTopCache[this.startIndex],
         this.endIndex === this.data.length ? 0 : this.scrollContainer.scrollHeight - this.elementTopCache[this.endIndex]
