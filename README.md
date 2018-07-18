@@ -1,1 +1,1 @@
-infinite-performance-scroll
+ng-infinite-performance-scroll
