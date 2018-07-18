@@ -4,13 +4,13 @@
         "directive-selector": [
             true,
             "attribute",
-            "lib",
+            "infinitePerformanceScroll",
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
-            "lib",
+            "infinite-performance-scroll",
             "kebab-case"
         ]
     }

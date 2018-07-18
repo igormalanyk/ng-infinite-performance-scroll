@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malaniuk/infinite-performance-scroll.git"
+    "url": "https://github.com/malaniuk/ng-infinite-performance-scroll.git"
   },
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",

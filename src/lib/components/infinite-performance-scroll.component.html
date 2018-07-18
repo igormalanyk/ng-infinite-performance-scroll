@@ -1,0 +1,11 @@
+<div class="space" #top></div>
+
+<ng-container *ngFor="let item of data.slice(startIndex, endIndex)">
+  <ng-content *ngTemplateOutlet="itemTemplate; context: itemContext(item)">
+  </ng-content>
+</ng-container>
+
+<div class="space" #bottom>
+  <ng-content select="[infinite-performance-scroll-bottom]">
+  </ng-content>
+</div>
